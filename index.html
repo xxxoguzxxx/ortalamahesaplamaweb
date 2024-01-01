@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sınav Ortalaması Hesapla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sınav Ortalaması Hesapla</h1>
+
+    <form id="examForm">
+      <label for="examCount">Sınav Sayısı:</label>
+      <input type="number" id="examCount" min="1" placeholder="Sınav Sayısı">
+      
+      <div id="examGrades"></div>
+
+      <button type="button" onclick="calculateAverage()">Ortalamayı Hesapla</button>
+      <p id="result"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
